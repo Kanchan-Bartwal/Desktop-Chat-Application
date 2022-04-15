@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Let's Talk</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1>It has been a long day!<br>Let's talk:)</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Your good name..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">Room</label>
+						<select name="room" id="room">
+							<option value="Chit-Chat">Chit-Chat</option>
+							<option value="Developer's Talk">Developer's Talk</option>
+							<option value="Books-suggestion">Books-suggestion</option>
+						</select>
+					</div>
+					<button type="submit" class="btn">Start Conversation</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
